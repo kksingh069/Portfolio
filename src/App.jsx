@@ -5,7 +5,7 @@ import  Navbar  from "./Components/Navbar";
 import About from "./Pages/About";
  import Contact from "./Pages/Contact"
  import  Projects from "./Pages/Projects";
- import  Home from "./Pages/Home";
+ import { Home } from "./Pages";
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
