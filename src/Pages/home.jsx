@@ -2,13 +2,13 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 
  import Sukuna from "../assets/Sukuna.mp3";
-import  HomeInfo  from "../components/HomeInfo";
-import  Loader  from "../components/Loader";
+import  HomeInfo  from "../Components/HomeInfo";
+import  Loader  from "../Components/Loader";
 import { soundoff, soundon } from "../assets/icons";
 import  {Bird} from "../Models/Bird";
-import  {Island} from "../models/Island";
-import  {Plane} from "../models/Plane";
-import  {Sky}  from "../models/Sky";
+import  {Island} from "../Models/Island";
+import  {Plane} from "../Models/Plane";
+import  {Sky}  from "../Models/Sky";
 
 const Home = () => {
   const audioRef = useRef(new Audio(Sukuna));
