@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom"
 const Navbar = () => {
   return (
     <header className="header">
-        <NavLink to="/" className="w-10 h-10 p-8 rounded-lg bg-white items-centre 
+        <NavLink to="/" className="w-10 h-10 rounded-lg bg-white items-centre 
         justify-centre flex font-bold shadow-md">
-         <p className="blue-gradient_text">KK</p>
+         <p className="blue-gradient_text p-2">KK</p>
         </NavLink>
         <nav className="flex text-lg gap-7 font-medium">
             <NavLink to="/about" className={({isActive})=>isActive ?
