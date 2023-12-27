@@ -8,14 +8,15 @@ import {
     html,
     javascript,
     linkedin,
-    mongodb,
+    //mongodb,
     motion,
     mui,
     nextjs,
     nodejs,
+    //pricewise,
     react,
     threads,
-    typescript
+    //typescript
 } from "../assets/icons";
 
 export const skills = [
@@ -24,11 +25,11 @@ export const skills = [
         name: "CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
+    // {
+    //     imageUrl: git,
+    //     name: "Git",
+    //     type: "Version Control",
+    // },
     {
         imageUrl: github,
         name: "GitHub",
@@ -59,6 +60,11 @@ export const skills = [
     //     name: "Tailwind CSS",
     //     type: "Frontend",
     // },
+// {
+//         imageUrl: typescript,
+//         name: "TypeScript",
+//         type: "Frontend",
+//     }
 ];
 
 export const experiences = [
