@@ -13,7 +13,6 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     threads,
     typescript
@@ -46,31 +45,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
         imageUrl: react,
         name: "React",
         type: "Frontend",
@@ -85,11 +59,6 @@ export const skills = [
     //     name: "Tailwind CSS",
     //     type: "Frontend",
     // },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
 ];
 
 export const experiences = [
@@ -137,6 +106,20 @@ export const projects = [
         name: 'Movie-website',
          description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
         link: 'https://kksingh069.github.io/Movie-App/',
+    },
+     {
+       iconUrl: pricewise,
+       theme: 'btn-back-red',
+        name: 'Myntra-Clone',
+         description: 'Developed a web application that tracks and notifies users of price changes for products on Myntra, helping users find the best deals.',
+        link: 'https://replit.com/@KrishnaKant9/Myntra-Clone-app#index.html',
+    },
+     {
+       iconUrl: pricewise,
+       theme: 'btn-back-red',
+        name: '3-D -Boxes-Background',
+         description: 'Developed a web application that tracks and notifies users of price changes for products on Myntra, helping users find the best deals.',
+        link: 'https://github.com/kksingh069/3d-boxes-background',
     },
     // {
     //     iconUrl: threads,
