@@ -8,15 +8,15 @@ import {
     html,
     javascript,
     linkedin,
-    //mongodb,
+    mongodb,
     motion,
     mui,
     nextjs,
     nodejs,
-    //pricewise,
+    pricewise,
     react,
     threads,
-    //typescript
+    typescript
 } from "../assets/icons";
 
 export const skills = [
